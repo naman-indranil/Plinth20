@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+       Cryptex | Plinth 2020, LNMIIT Jaipur | Techno-Management
+      Fest</title>
+  
+  <!-- Meta for SEO -->
+  <meta property="og:title" content="Plinth 2019, LNMIIT Jaipur | Techno-Management Literary Fest">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://plinth.in">
+  <meta property="og:image" content="https://plinth.in/media/plinth.jpg">
+  <meta property="og:description" content="Plinth: 19th to 20th January. LNMIIT presents Techno-Management Literary Fest. Get ready for an awesome breathtaking journey.">
+  
+  <meta name="author" content="Raj">
+  <meta name="theme-color" content="#30273F">
+  <meta name="description" content="Plinth: 19th to 20th January. LNMIIT presents Techno-Management Literary Fest. Get ready for an awesome breathtaking journey.">
+  <meta name="keywords" content="plinth, plinth 2019, techfest, competitions, workshops, pro-night, jaipur, fest, India, Rajasthan, best, college, university, biggest, largest, lnmiit, mittal, students, robots, country, campaign, initiative, sponsors, games, cryptex, artists,international, contacts, plinth lnmiit, plinth_lnmiit, plinthlnmiit, plinth.lnmiit, awesome, Science, Technology, lectures, talks, exhibitions, student outreach program, astronomy, robotics, startup, coding, iupc, codeswap, robowar, roborace, astro hunt, astro quiz, quiz, quizzinga, robosoccer, drone, maaze solver, transporter, rc place, sif, startup intern fair, intern fair, fair, tech shows , tech entertainment, tech extravaganza, revolution, social, exhibitions, 2k16, 2k17, 2k18, 2k19, 2016, 2017, 2016-17, 2017-18, 2018-19 plinth2k19, CAP, ca, cA, CAMPUS, campus ambassador, 2019, leader, mun, plinth 2k19">
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@PlinthLNMIIT">
+  <meta name="twitter:creator" content="@nimbus_1212">
+  
+  <meta name="twitter:title" content="Plinth 2019, LNMIIT Jaipur | Techno-Management Literary Fest">
+  <meta name="twitter:description" content="Come Join Your Friends on an awesome TechFest!! #Plinth #2k19.">
+  <meta name="twitter:image" content="https://plinth.in/media/plinth.png">
+  <meta name="twitter:domain" content="plinth.in">
+  
+  <!-- Favicon -->
+  <link rel="favicon icon" href="/plinth/images/fav/favicon.ico" />
+<link href="/plinth/images/fav/apple-icon-60x60.png" rel=apple-touch-icon sizes=60x60>
+<link href="/plinth/images/fav/apple-icon-120x120.png" rel=apple-touch-icon sizes=120x120>
+<link href="/plinth/images/fav/apple-icon-76x76.png" rel=apple-touch-icon sizes=76x76>
+<link href="/plinth/images/fav/apple-icon-152x152.png" rel=apple-touch-icon sizes=152x152>
+<link href="/plinth/images/fav/android-icon-192x192.png" rel="icon" type="image/png" sizes="192x192">
+<meta name="msapplication-TileImage" content="https://plinth.in/media/ms-icon-144x144.png">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="brain.css">
+  <link rel="stylesheet" href="cryptex.css">
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="animate.css">
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
+
+</head>
+
+<body>
+    <style>
+#home {
+    visibility: hidden;
+}
+.cryptex {
+    font-size: 40px;
+}
+#myImg {
+border-radius: 5px;
+cursor: pointer;
+transition: 0.3s;
+}
+#myImg:hover {
+    opacity: 0.7;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.99);
+}
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    margin-top: 70px;
+}
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+.modal-content,
+#caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+.close {
+    position: absolute;
+    top: 90px;
+    right: 80px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+    .close {
+        right: 30px !important;
+    }
+}
+.heading {
+    font-size: 3.0vh;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-top: -8px;
+}
+.answer-box{
+    margin-top: 10px ;
+}
+    </style>
+
+    <div class="loader" id="loader">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>
+    <div id="home">
+     
+        <div class="bg">
+            <img src="/plinth/cryptex/image/bg-pink-1.png" alt="" class="image-2">
+            <img src="/plinth/cryptex/image/bg-blue-1.png" alt="" class="image-3">
+            <img src="/plinth/cryptex/image/bg-pink-2.png" alt="" class="image-4">
+            <img src="/plinth/cryptex/image/bg-green-1.png" alt="" class="image-5">
+            <img src="/plinth/cryptex/image/bg-green-2.png" alt="" class="image-6">
+            <img src="/plinth/cryptex/image/bg-red-1.png" alt="" class="image-7">
+            <img src="/plinth/cryptex/image/bg-blue-2.png" alt="" class="image-8">
+            <img src="/plinth/cryptex/image/bg-pink-3.png" alt="" class="image-9">
+            <img src="/plinth/cryptex/image/bg-blue-3.png" alt="" class="image-10">
+        </div>
+        <div class="clouds">
+            <img src="/plinth/cryptex/image/bg-cloud-1.png" alt="" class="cloud cloud-1">
+            <img src="/plinth/cryptex/image/bg-cloud-2.png" alt="" class="cloud cloud-2">
+            <img src="/plinth/cryptex/image/bg-cloud-3.png" alt="" class="cloud cloud-3">
+            <img src="/plinth/cryptex/image/bg-cloud-4.png" alt="" class="cloud cloud-4">
+            <img src="/plinth/cryptex/image/bg-cloud-5.png" alt="" class="cloud cloud-5">
+            <img src="/plinth/cryptex/image/bg-cloud-6.png" alt="" class="cloud cloud-6">
+            <img src="/plinth/cryptex/image/bg-cloud-7.png" alt="" class="cloud cloud-7">
+        </div>
+    </div>
+        
+        <!-- Navbar -->
+<div class="navbar" id="nav-delay">
+  <a href="/"><img class="logo" src="/plinth/images/logo.svg" alt="Plinth" /></a>
+
+   <div class="navbar-buttons">
+       
+       <div id="desk-nav">
+           <ul>
+               <li class="nav-item dropdown">
+                   <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                       user.name
+                   </a>
+                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                       <a class="dropdown-item" href="/profile">Profile</a>
+                       <a class="dropdown-item" href="/user/logout">LogOut</a>
+                   </div>
+               </li>
+           </ul>
+       </div>
+       
+       <a href="#" data-toggle="modal" data-target="#exampleModalCenter"><button class="button" type="button" name="button">
+               LOGIN</button></a>
+       
+       <span><img class="open-menu" src="/plinth/cryptex/image/menu.svg" alt=""/></span>
+   </div>
+</div>
+
+<!-- Overlay Navigation Menu -->
+<div class="overlay">
+   <nav class="overlay-menu">
+       <ul>
+           <li><a href="/cryptex">Home</a></li>
+           <li><a href="/">Plinth</a></li>
+           <li><a href="/cryptex/leaderboard">Leaderboard</a></li>
+           <li><a href="https://www.facebook.com/lnmiitquizzinga/" target="_blank">Hints & Clues</a></li>
+           <li><img class="close-menu" src="/plinth/cryptex/image/close.svg" alt="" /></li>
+       </ul>
+   </nav>
+</div>
+
+
+<!-- Register Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title w-100 text-center" id="exampleModalLongTitle">Register/Login</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <p>Register yourself for different competitions through this portal to know further details
+                    and
+                    proceedings of PLINTH'20.
+                    Morever if you register through this platform , you would be able to get exclusive
+                    coupons
+                    and offers.
+
+                </p>
+            </div>
+            <div class="modal-footer">
+                <div class="col-sm-6 text-left">
+                    <a onclick='userLoginInitiate("/user/auth/google")'><button type="button" class="btn btn-outline-primary "><img
+                                class="g_icon" src="/plinth/cryptex/image/g_icon.png">
+                            &nbspGoogle</button></a>
+                </div>
+                <div class="col-sm-6 text-right">
+                    <a onclick='userLoginInitiate("/user/auth/facebook")'><button type="button" class="btn btn-outline-primary"><img
+                                class="f_icon" src="/plinth/cryptex/image/f_icon.png">
+                            &nbspFacebook</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="container">
+            <div class="plinth-text animated fadeIn delay-4s">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p>
+                            <span class="plinth">plinth</span> <span class="date">2020</span>
+                            <br>
+                            <span class="presents">presents</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cryptex">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <span class="animated fadeIn delay-5s">Cryptex</span>
+                        <br>
+                        <div class="cryp-text">
+                            <p class="textp small small-padd animated flipInX slower delay-5s">
+                                <b>
+                                    Get ready, all set to dive into the vast ocean of web hunt to unravel the secrets.
+                                    <br>
+                                    This whole internet is yours, but mind you, the elusive clues are bound to leave
+                                    you stumped.
+                                </b>
+                            </p>
+                            <p class="textp small small-padd animated flipInX slower delay-5s">
+                                <strong>Thanks a lot for the overwhelming participation !<br> Winners will be contacted via e-mail shortly.<br>See you all next year with more brainstorming questions.</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cryptex-play-btn animated lightSpeedIn slower delay-5s">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                            <a class="btn btn-secondary" href="/cryptex/leaderboard">Leaderboard</a>
+                        <!--  -->
+                            <!--  -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="brain.js"></script>
+    <script src="cryptex.js"></script>
+    <script src="js/bootstrap-notify.js"></script>
+    <script>
+        jQuery(document).ready(function () {
+            $("#loader").delay(1000).fadeOut(400, function () {
+                $("#home").css({
+                    "visibility": "visible"
+                }).fadeIn(200);
+            });
+        });
+    </script>
+    <script>
+        setTimeout(function () {
+            $('#nav-delay').css({
+                "visibility": "visible"
+            }).fadeIn(400);
+        }, 2000);
+    </script>
+    <script>
+        function closeModal() {
+            document.getElementById('myModal').style.display = "none";
+        }
+        var modal = document.getElementById('myModal');
+        var img = document.getElementById('myImg');
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        var span = document.getElementsByClassName("close");
+        img.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+    </script>
+    <script>
+        var input = document.getElementById("answer");
+        input.addEventListener("keyup", function (event) {
+            event.preventDefault();
+            if (event.keyCode === 13) {
+                document.getElementById("myBtn").click();
+            }
+        });
+    </script>
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+     <script async src="js.js"></script>
+     <script>
+         window.dataLayer = window.dataLayer || [];
+ 
+         function gtag() {
+             dataLayer.push(arguments);
+         }
+         gtag('js', new Date());
+         gtag('config', 'UA-125190547-1');
+     </script>
+ 
+</body>
+
+</html>
